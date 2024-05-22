@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --bg-color: #fffff;
+    --text-color: #0f172a;
+    --main-color: #6b7280;
+    --other-color: #334155;
+
+}
+/* body{
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+.logo{
+    
+    
+} */
+nav{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background: transparent;
+    padding: 15px 10%;
+    transition: all .5s ease;
+}
+.logo img{
+    height: auto;
+    width: 100%;
+}
+.nav-link ul{
+    display: flex;
+}
+.nav-link a{
+    font-weight: 400;
+    padding: 10px;
+    margin: 0 5px;
+    background: transparent;
+    border-radius: 30px;
+    color: rgb(17, 0, 255);
+    font-size: medium;
+    transition: all .5s ease;
+}
+.nav-link a:hover{
+    background: #0f172a;
+}
+.nav-link a.active{
+    background: #334155;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icons i{
+    height: 50px;
+    width: 50px;
+    background: #f7f9fb;
+    border-radius: 50%;
+    color: var(--other-color);
+    font-size: 22px;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    transition: all .5s ease;
+    display: inline-flex;
+}
+.icons i:hover{
+    transform: scale(0.9);
+}
+#menu-icon{
+    color: var(--other-color);
+    font-size: 33px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+section{
+    padding: 100px 11% 90px;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rawpixel.com%2Fsearch%2Fplain%2520background&psig=AOvVaw02htbOs8JGYjQZGJWIkLj-&ust=1716492589855000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjKkbf_oYYDFQAAAAAdAAAAABAE);
+    background-color: #e3ffe6;
+    background-size: cover;
+    position: relative;
+}
+
+/* .home-img{
+    width: 100px;
+    height: 100px;
+} */

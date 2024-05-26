@@ -213,3 +213,10 @@ span{
     width: 300px;
     height: auto;
 }
+.product-content{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    /* width: 100%;
+    height: auto; */
+}
